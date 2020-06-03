@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>完善个人信息</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/iconfont.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class='perfect_info'>
+        <div class='tit'>完善个人信息</div>
+        <div class='frombox'>
+            <div class='form_item_box'>
+                <div class='item_type'>
+                    <span>*</span>
+                    <span>姓名</span>
+                </div>
+                <div class='item_input'>
+                    <input type="text" placeholder="请输入姓名">
+                </div>
+            </div>
+            <div class='form_item_box'>
+                <div class='item_type'>
+                    <span>*</span>
+                    <span>手机号</span>
+                </div>
+                <div class='item_input flex-row ph_num'>
+                    <!-- 区号选择 下一版会用 -->
+                    <!-- <div class='area_num'>
+                        <div class='seled_areanum flex-row'>
+                            <span>+86</span>
+                            <i class='iconfont icon-xiala1'></i>
+                        </div>
+                        <div class='area_num_list hide'>
+                            <div class='area_num_item flex-row'>
+                                <span class='num'>+8336</span>
+                                <span>中国</span>
+                            </div>
+                            <div class='area_num_item flex-row'>
+                                <span class='num'>+8446</span>
+                                <span>中国</span>
+                            </div>
+                            <div class='area_num_item flex-row'>
+                                <span class='num'>+8556</span>
+                                <span>中国</span>
+                            </div>
+                        </div>
+                    </div> -->
+                    <input type="text" placeholder="请输入请输入手机号">
+                </div>
+            </div>
+            <div class='form_item_box'>
+                <div class='item_type'>
+                    <span>*</span>
+                    <span>职业</span>
+                </div>
+                <div class='item_input'>
+                    <input type="text" placeholder="请输入职业">
+                </div>
+            </div>
+            <div class='form_item_box'>
+                <div class='item_type'>
+                    <span>目前所在地</span>
+                </div>
+                <div class='item_input'>
+                    <input type="text" placeholder="请输入目前所在地">
+                </div>
+            </div>
+            <div class='form_item_box'>
+                <div class='item_type'>
+                    <span>年龄</span>
+                </div>
+                <div class='item_input'>
+                    <input type="text" placeholder="请输入年龄">
+                </div>
+            </div>
+            <div class='form_item_box'>
+                <div class='item_type'>
+                    <span>备注</span>
+                </div>
+                <div class='item_input'>
+                   <textarea name="" id="" cols="30" rows="10" placeholder="备注内容最多可输入120字"></textarea>
+                </div>
+            </div>
+            <div class='bot_btn mainColor_btn'>提交</div>
+        </div>
+    </div>
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.3.0/jquery.min.js"></script>
+    <script>
+        //区号选择 下一版会用 
+        // $('.seled_areanum').on('click',function(){
+        //     $(this).find('.iconfont').toggleClass('rotate180');
+        //     $(this).next().toggleClass('hide');
+        // })
+        // $('.area_num_item').on('click',function(){
+        //    $('.seled_areanum span').text($(this).find('.num').text()).click();
+        // })
+    </script>
+</body>
+</html>
